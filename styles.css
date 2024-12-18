@@ -8,7 +8,7 @@ body {
 .hero {
     background-color: rgb(196, 133, 255);
     padding: 16px;
-
+    margin-bottom: 32px;
 }
 
 .nav-bar {
@@ -28,11 +28,19 @@ body {
     font-weight: 700;
 }
 
+.left {
+    margin-left: 32px;
+}
+
+.right {
+    margin-right: 32px;
+}
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px;
+    gap: 12px;
 }
 
 .container.content {
@@ -52,6 +60,7 @@ body {
 
 .content button {
     padding: 4px;
+    border-radius: 5px;
 }
 
 .container img {
@@ -62,7 +71,7 @@ body {
 .more {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     margin: 16px;
     padding: 12px;
 }
@@ -76,6 +85,8 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
 }
 
 .box {
@@ -83,6 +94,67 @@ body {
     justify-content: space-evenly;
     border: 2px solid black;
     border-radius: 8px;
-    width: 150px;
+    width: fit-content;
     height: 150px;
+}
+
+.box img {
+    border-radius: 5px;
+}
+
+.quote-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px;
+    margin-top: 18px;
+    background-color: rgb(221, 215, 215);
+    border-radius: 5px;
+}
+
+.quote {
+    font-family: light italic;
+    font-size: 32px;
+}
+
+.speaker {
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    background-color: rgb(196, 133, 255);
+    border-radius: 5px;
+    width: 1600px;
+    margin: 48px auto;
+}
+
+.text {
+    padding: 16px;
+}
+
+.text header {
+    margin-top: 10px;
+    margin-bottom: -15px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.button button {
+    border-radius: 5px;
+    padding: 4px;
+    margin: 4px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 203, 203);
 }
