@@ -50,7 +50,39 @@ body {
     font-family: Impact;
 }
 
+.content button {
+    padding: 4px;
+}
+
 .container img {
     width: 150px;
     height: 100%;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+    padding: 12px;
+}
+
+.more header {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
 }
