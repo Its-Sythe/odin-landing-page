@@ -89,6 +89,13 @@ body {
     margin-bottom: 48px;
 }
 
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .box {
     display: flex;
     justify-content: space-evenly;
@@ -100,6 +107,12 @@ body {
 
 .box img {
     border-radius: 5px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote-box {
